@@ -1,0 +1,15 @@
+.footer {
+  background: url(../img/Solaris-About-Us-bg_1.jpg) center no-repeat;
+  font-family: 'EncodeSansMedium';
+  text-align: center;
+}
+
+.footer .container_1 p {
+  padding: 24px 0 29px 0;
+  color: #434850;
+}
+
+.footer .container_1 p span {
+  color: #6e7680;
+}
+/*# sourceMappingURL=style.css.map */

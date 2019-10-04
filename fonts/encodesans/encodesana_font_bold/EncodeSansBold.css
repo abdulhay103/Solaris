@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'EncodeSansBold';
+    src: url('fonts/EncodeSansBold.eot');
+    src: url('fonts/EncodeSansBold.eot') format('embedded-opentype'),
+         url('fonts/EncodeSansBold.woff2') format('woff2'),
+         url('fonts/EncodeSansBold.woff') format('woff'),
+         url('fonts/EncodeSansBold.ttf') format('truetype'),
+         url('fonts/EncodeSansBold.svg#EncodeSansBold') format('svg');
+}

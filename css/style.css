@@ -1,0 +1,642 @@
+                            @font-face {
+                            font-family: 'EncodeSansBold';
+                            src: url('../fonts/encodesans/encodesana_font_bold/EncodeSansBold.eot');
+                            src: url('../fonts/encodesans/encodesana_font_bold/EncodeSansBold.eot') format('embedded-opentype'), url('../fonts/encodesans/encodesana_font_bold/EncodeSansBold.woff2') format('woff2'), url('../fonts/encodesans/encodesana_font_bold/EncodeSansBold.woff') format('woff'), url('../fonts/encodesans/encodesana_font_bold/EncodeSansBold.ttf') format('truetype'), url('../fonts/encodesans/encodesana_font_bold/EncodeSansBold.svg#EncodeSansBold') format('svg');
+                        }
+                        
+                        @font-face {
+                            font-family: 'EncodeSansMedium';
+                            src: url('../fonts/encodesans/encodesana_font_medium/EncodeSansMedium.eot');
+                            src: url('../fonts/encodesans/encodesana_font_medium/EncodeSansMedium.eot') format('embedded-opentype'), url('../fonts/encodesans/encodesana_font_medium/EncodeSansMedium.woff2') format('woff2'), url('../fonts/encodesans/encodesana_font_medium/EncodeSansMedium.woff') format('woff'), url('../fonts/encodesans/encodesana_font_medium/EncodeSansMedium.ttf') format('truetype'), url('../fonts/encodesans/encodesana_font_medium/EncodeSansMedium.svg#EncodeSansMedium') format('svg');
+                        }
+                        
+                        @font-face {
+                            font-family: 'EncodeSansRegular';
+                            src: url('../fonts/encodesans/encodesana_font_regular/EncodeSansRegular.eot');
+                            src: url('../fonts/encodesans/encodesana_font_regular/EncodeSansRegular.eot') format('embedded-opentype'), url('../fonts/encodesans/encodesana_font_regular/EncodeSansRegular.woff2') format('woff2'), url('../fonts/encodesans/encodesana_font_regular/EncodeSansRegular.woff') format('woff'), url('../fonts/encodesans/encodesana_font_regular/EncodeSansRegular.ttf') format('truetype'), url('../fonts/encodesans/encodesana_font_regular/EncodeSansRegular.svg#EncodeSansRegular') format('svg');
+                        }
+                        
+                        @font-face {
+                            font-family: 'SourceSansProRegular';
+                            src: url('../fonts/SourceSanPro_regular/SourceSansProRegular.eot') format('embedded-opentype'), url('../fonts/SourceSanPro_regular/SourceSansProRegular.woff2') format('woff2'), url('../fonts/SourceSanPro_regular/SourceSansProRegular.woff') format('woff'), url('../fonts/SourceSanPro_regular/SourceSansProRegular.ttf') format('truetype'), url('../fonts/SourceSanPro_regular/SourceSansProRegular.svg#SourceSansProRegular') format('svg');
+                        }
+                        
+                        body {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6,
+                        p,
+                        ul {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        .container_1 {
+                            width: 87.176%;
+                            margin: 0 auto;
+                        }
+                        
+                        .container_2 {
+                            width: 76.131%;
+                            margin: 0 auto;
+                        }
+                        
+                        .col_1 {
+                            width: 100%;
+                            display: block;
+                        }
+                        
+                        .col_2 {
+                            width: 50%;
+                            display: block;
+                            float: left;
+                        }
+                        
+                        .col_5 {
+                            width: 20%;
+                            display: block;
+                            float: left;
+                        }
+                        
+                        .headerText {
+                            font-family: 'EncodeSansMedium';
+                            font-weight: 500;
+                            font-size: 45px;
+                            line-height: 57.96px;
+                            text-align: center;
+                            color: #fff;
+                            padding: 6.5% 0;
+                        }
+                        
+                        .headerText p:hover {
+                            -webkit-animation: swing 1s ease;
+                            animation: swing 1s ease;
+                            -webkit-animation-iteration-count: 1;
+                            animation-iteration-count: 1;
+                            text-shadow: 0 0 10px rgb(191, 57, 196);
+                            /* color: rgb(154, 156, 151); */
+                        }
+                        
+                        @keyframes swing {
+                            15% {
+                                -webkit-transform: translateX(5px);
+                                transform: translateX(5px);
+                            }
+                            30% {
+                                -webkit-transform: translateX(-5px);
+                                transform: translateX(-5px);
+                            }
+                            50% {
+                                -webkit-transform: translateX(3px);
+                                transform: translateX(3px);
+                            }
+                            65% {
+                                -webkit-transform: translateX(-3px);
+                                transform: translateX(-3px);
+                            }
+                            80% {
+                                -webkit-transform: translateX(2px);
+                                transform: translateX(2px);
+                            }
+                            100% {
+                                -webkit-transform: translateX(0);
+                                transform: translateX(0);
+                            }
+                        }
+                        /****************************CUSTOMAZATION*********************************/
+                        
+                        #FocusOnSuperb {
+                            background: url(../img/Solaris-About-Us-bg_1.jpg) center no-repeat;
+                            width: 100%;
+                            height: 807px;
+                        }
+                        
+                        .menu {
+                            width: 100%;
+                            padding: 2.521%;
+                            box-sizing: border-box;
+                        }
+                        
+                        .menuIcon {
+                            width: 50%;
+                            float: left;
+                        }
+                        
+                        .menuIcon>a {
+                            text-decoration: none;
+                        }
+                        
+                        .fa-bars {
+                            color: #6e7680;
+                            padding-right: 11px;
+                            font-size: 19px;
+                        }
+                        
+                        .aboutText {
+                            font-family: 'EncodeSansBold';
+                            color: #3a3d44;
+                            font-size: 19px;
+                        }
+                        
+                        .logo {
+                            font-family: 'EncodeSansBold';
+                            font-size: 15px;
+                            width: 50%;
+                            float: right;
+                            text-align: right;
+                            color: #3e4248;
+                        }
+                        
+                        .focusThumpsup {
+                            margin-top: 11.12%;
+                        }
+                        
+                        .focusText {
+                            margin: auto 0;
+                            font-family: 'EncodeSansMedium';
+                            font-size: 31px;
+                            color: #fff;
+                            text-align: center;
+                        }
+                        
+                        .thumpsUp {
+                            text-align: right;
+                        }
+                        /* SIDE_ICON_ START */
+                        
+                        .clickable-icon {
+                            position: fixed;
+                            top: 40%;
+                            right: 3%;
+                            z-index: 5;
+                        }
+                        
+                        .clickable-icon .circle.active {
+                            background: #fff;
+                        }
+                        
+                        .clickable-icon .circle {
+                            width: 17px;
+                            height: 17px;
+                            background: #535356;
+                            border-radius: 50%;
+                            position: relative;
+                            cursor: pointer;
+                        }
+                        
+                        .clickable-icon .circle::before {
+                            content: '';
+                            display: block;
+                            background: #222528;
+                            height: 11.5px;
+                            width: 11.5px;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            -webkit-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                        }
+                        
+                        .clickable-icon .circle::after {
+                            content: '';
+                            display: block;
+                            height: 38px;
+                            background: #535356;
+                            width: 3px;
+                            position: absolute;
+                            top: 100%;
+                            left: 50%;
+                            -webkit-transform: translateX(-50%);
+                            transform: translateX(-50%);
+                            cursor: default;
+                        }
+                        
+                        .clickable-icon .second-circle {
+                            position: absolute;
+                            top: 55px;
+                        }
+                        
+                        .clickable-icon .third-circle {
+                            position: absolute;
+                            top: 110px;
+                        }
+                        
+                        .clickable-icon .fourth-circle {
+                            position: absolute;
+                            top: 165px;
+                        }
+                        
+                        .clickable-icon .fifth-circle {
+                            position: absolute;
+                            top: 220px;
+                        }
+                        
+                        .clickable-icon .last-circle::after {
+                            display: none;
+                        }
+                        /* SIDE_ICON_ End */
+                        /* *******************Section_aboutUs***************** */
+                        
+                        #aboutUs {
+                            background-color: #23262a;
+                            width: 100%;
+                            height: 780px;
+                        }
+                        
+                        .aboutUsText>p {
+                            font-family: 'SourceSansProRegular';
+                            color: #fff;
+                            font-size: 17px;
+                            padding-bottom: 70px;
+                            line-height: 1.3;
+                        }
+                        
+                        .cross {
+                            background: url(../img/cross.png) center no-repeat;
+                            min-height: 408px;
+                            position: relative;
+                        }
+                        
+                        .crossIcons {
+                            font-family: 'EncodeSansMedium';
+                            font-size: 17.5px;
+                            position: absolute;
+                            width: 150px;
+                            height: 150px;
+                            text-align: center;
+                            color: #fff;
+                        }
+                        
+                        .crossIcon1 {
+                            top: 0%;
+                            left: 38%;
+                        }
+                        
+                        .crossIcon2 {
+                            top: 38%;
+                            left: 15%;
+                        }
+                        
+                        .crossIcon3 {
+                            top: 65%;
+                            left: 37%;
+                        }
+                        
+                        .crossIcon4 {
+                            top: 35%;
+                            left: 63%;
+                        }
+                        /* ******************Section_CoreValues***************** */
+                        
+                        #coreValues {
+                            background-color: #1b1d20;
+                            min-height: 898px;
+                            width: 100%;
+                        }
+                        
+                        nav h6.text-active {
+                            color: #fff;
+                            position: relative;
+                        }
+                        
+                        nav h6.text-active::before {
+                            content: '';
+                            display: block;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 50%;
+                            background: white;
+                            position: absolute;
+                            bottom: -6px;
+                        }
+                        
+                        .core-value {
+                            min-height: 909px;
+                            background: #1b1d20;
+                        }
+                        
+                        .core-value .section-heading p {
+                            font-family: 'Encode Sans';
+                            font-weight: 500;
+                            font-size: 45px;
+                            line-height: 57.96px;
+                        }
+                        
+                        .core-value nav {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            max-width: 1076px;
+                            margin-bottom: 111px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        
+                        .core-value h6 {
+                            font-family: 'Source Sans Pro';
+                            font-size: 17px;
+                            font-weight: 400;
+                            line-height: 22px;
+                            -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                            flex: 1;
+                            text-decoration: none;
+                            color: #494a4d;
+                            text-align: center;
+                            border: 1px solid #333639;
+                            height: 70px;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            justify-content: center;
+                            border-top: none;
+                            position: relative;
+                            cursor: pointer;
+                        }
+                        
+                        .core-value h6:first-child {
+                            border-left: none;
+                        }
+                        
+                        .core-value h6:last-child {
+                            border-right: none;
+                        }
+                        
+                        .core-value .details.active-detail {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                        }
+                        
+                        .core-value .details {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            padding-left: 150px;
+                            display: none;
+                        }
+                        
+                        .core-value .details .text {
+                            max-width: 397px;
+                            padding-right: 110px;
+                        }
+                        
+                        .core-value .details .text h2 {
+                            font-family: 'Encode Sans';
+                            font-weight: 500;
+                            padding-bottom: 42px;
+                            font-size: 24px;
+                            line-height: 22px;
+                            color: #fff;
+                        }
+                        
+                        .core-value .details .text p {
+                            padding-bottom: 35px;
+                            font-family: 'SourceSansProRegular';
+                            color: #fff;
+                            font-size: 17px;
+                            padding-bottom: 70px;
+                            line-height: 1.3;
+                        }
+                        
+                        .pt-0 {
+                            padding-top: 0;
+                        }
+                        
+                        hr {
+                            background: #56595c;
+                            height: 1px;
+                            border: none;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        /* **************Section_Clients************* */
+                        
+                        #clients {
+                            background: url(../img/Solaris-About-Us-bg_3.jpg) center no-repeat;
+                            padding-top: 3%;
+                            background-attachment: fixed;
+                            position: relative;
+                            padding-top: 77%;
+                        }
+                        
+                        .overlay {
+                            background: #292e33f2;
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                        }
+                        
+                        .clientsLogos {
+                            list-style: none;
+                            display: flex;
+                            text-align: center;
+                            align-items: center;
+                            width: 100%;
+                            box-sizing: border-box;
+                            padding: 4.677% 0;
+                        }
+                        
+                        .logoItem {
+                            width: 16.667%;
+                            /* height: 80px; */
+                            border-right: 1px solid #3c3f43;
+                        }
+                        
+                        .details {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                        }
+                        
+                        .details .text {
+                            max-width: 397px;
+                            line-height: 24px;
+                            color: #b4b6ba;
+                            padding-right: 100px;
+                        }
+                        
+                        .details .text p {
+                            padding-bottom: 33px;
+                            color: #fff;
+                        }
+                        
+                        .details .image {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                        }
+                        
+                        .details .image .shape {
+                            font-family: 'Encode Sans';
+                            margin-right: 71px;
+                            color: #fff;
+                        }
+                        
+                        .clients .image .shape:last-child {
+                            margin-right: 0px;
+                        }
+                        
+                        .details .image .shape p.category {
+                            text-align: center;
+                            padding-top: 28px;
+                        }
+                        
+                        .details .image .hexagon-shape {
+                            background: url("../img/hexagonShape.png");
+                            width: 124px;
+                            height: 143px;
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                            flex-direction: column;
+                            font-weight: 300;
+                        }
+                        
+                        #clientsOppenion {
+                            background-color: #1b1d20;
+                            border-top: 1px solid #545252;
+                            border-bottom: 1px solid #545252;
+                        }
+                        
+                        .membershipAccredit {
+                            display: flex;
+                            width: 100%;
+                        }
+                        
+                        .membership {
+                            width: 460px;
+                        }
+                        
+                        .memberLogoItem1 {
+                            padding-right: 38px;
+                        }
+                        
+                        .membershipAccredit h3 {
+                            padding: 25px 0;
+                        }
+                        
+                        .memberLogo {
+                            display: flex;
+                            align-items: center;
+                            padding-bottom: 20px;
+                        }
+                        
+                        .accredit {
+                            width: 716px;
+                        }
+                        
+                        .accreditLogo {
+                            display: flex;
+                            justify-content: space-between;
+                            padding-bottom: 20px;
+                        }
+                        /* ********WE_ARE_SOCIAL*********** */
+                        
+                        #weAreSocial {
+                            background-color: #1b1d20;
+                            min-height: 100%;
+                            box-sizing: border-box;
+                            padding-bottom: 95px;
+                        }
+                        
+                        .socialImageHolder {
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .socialImgItem {
+                            width: 50%;
+                            text-align: center;
+                        }
+                        
+                        .membershipAccredit h3 {
+                            font-family: 'EncodeSansMedium';
+                            color: #fff;
+                            font-size: 15px;
+                        }
+                        
+                        .socialIcons {
+                            padding-top: 10px;
+                            display: flex;
+                            justify-content: space-around;
+                            height: 20px;
+                        }
+                        
+                        .socialIcons>a {
+                            width: 20px;
+                        }
+                        
+                        .socialIcons>a>.fab {
+                            color: #363a40;
+                            padding: 10px;
+                        }
+                        
+                        .socialIcons>a>.fab:hover {
+                            border-radius: 50%;
+                            transition: all 1s ease;
+                            transform: rotateY(360deg);
+                        }
+                        
+                        .socialIcons>a>.fa-facebook-f:hover {
+                            border: 2px solid #3b5998;
+                            box-shadow: 0 0 5px #3b5998;
+                            color: #3b5998;
+                        }
+                        
+                        .socialIcons>a>.fa-vimeo-v:hover {
+                            border: 2px solid #1AB7EA;
+                            box-shadow: 0 0 5px #1AB7EA;
+                            color: #1AB7EA;
+                        }
+                        
+                        .socialIcons>a>.fa-apple:hover {
+                            border: 2px solid #7D7D7D;
+                            box-shadow: 0 0 5px #7D7D7D;
+                            color: #7D7D7D;
+                        }
+                        
+                        .socialIcons>a>.fa-android:hover {
+                            border: 2px solid #A4C639;
+                            box-shadow: 0 0 5px #A4C639;
+                            color: #A4C639;
+                        }
+                        
+                        .socialIcons>a>.fa-windows:hover {
+                            border: 2px solid #00ADEF;
+                            box-shadow: 0 0 5px #00ADEF;
+                            color: #00ADEF;
+                        }
+                        /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+                        
+                        @media only screen and (max-width: 480px) {
+                            .col_1 {
+                                width: 100%;
+                            }
+                            .col_2 {
+                                width: 100%;
+                            }
